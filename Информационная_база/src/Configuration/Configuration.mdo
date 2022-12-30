@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48b03277-7d12-410a-ac4b-a699b6fda293">
+  <name>Домашка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Домашка</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="47b3b177-e751-490c-a10e-03c6ecfe35a0"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c37f108d-da06-48f7-825f-fed268a80470"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="33394307-856a-4b44-b61e-c64445a256b6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="613e0f21-921e-4f9f-bb3a-3bca0edd4b0d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="977db501-cac0-47e7-8fa8-ff74f1845bfe"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="695a1c18-2b4b-4bea-abbf-8b0e96eba5f5"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6f8c5583-5b4b-4992-a806-0accef1582a1"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="c9e6149b-4f46-4f1b-87ab-7254cb458dc5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.ДополнительныеСвойстваХарактеристикТоваров</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудник</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.ХарактеристикиТоваров</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.БухгалтерскаяОперация</documents>
+  <documents>Document.ПроводкиМесяца</documents>
+  <enums>Enum.Валюта</enums>
+  <reports>Report.ВаловаяПрибыль</reports>
+  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.ОстаткиПоСчетамБУ</reports>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствХарактеристикТовара</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКлиентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПланВидовХарактеристикТоваров</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухгалтерии</accountingRegisters>
+</mdclass:Configuration>

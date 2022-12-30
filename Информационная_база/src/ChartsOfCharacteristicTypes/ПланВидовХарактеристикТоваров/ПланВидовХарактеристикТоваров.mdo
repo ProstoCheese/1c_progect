@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d34bcdcc-e720-4acd-ac9f-d32eb95be6d4">
+  <producedTypes>
+    <objectType typeId="1049650e-f2a8-4297-b80b-7d8bded6f950" valueTypeId="54dedbef-df12-45b0-8e71-e092de1625b5"/>
+    <refType typeId="fae8d565-ab33-4690-bda7-b9d548fd7a4f" valueTypeId="0b65d61a-53a8-4614-9444-c1f8c67c8519"/>
+    <selectionType typeId="2de128aa-86b4-4af2-b48b-8dc5b214b323" valueTypeId="18284b10-41f0-46e8-92a4-c39ece2b6648"/>
+    <listType typeId="15476785-f980-4a63-8604-30950bfb8b6b" valueTypeId="c8bb2eb8-6aa4-467f-9ddb-b83541fb44bc"/>
+    <managerType typeId="f075b53f-4cf6-4811-9f10-f271f975fa79" valueTypeId="c968e2d4-95d6-4683-a231-b99f50b033ab"/>
+    <containerType typeId="133e707f-2996-4333-9b20-1c436550f43c" valueTypeId="782d3393-1137-41b7-b02c-238935cd67b7"/>
+  </producedTypes>
+  <name>ПланВидовХарактеристикТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>План видов характеристик товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПланВидовХарактеристикТоваров.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПланВидовХарактеристикТоваров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ДополнительныеСвойстваХарактеристикТоваров</characteristicExtValues>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>CatalogRef.ДополнительныеСвойстваХарактеристикТоваров</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

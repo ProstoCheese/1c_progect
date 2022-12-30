@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1f48e73-a10d-4c39-8e54-98d7f312f7c5">
+  <producedTypes>
+    <objectType typeId="5c583ea9-9c01-4132-a4ce-c1c9110e3c9c" valueTypeId="3f701bb1-c1bf-445b-be2d-2056d39ab4ab"/>
+    <refType typeId="fbf2a9fb-5c80-44c8-abdf-388414ae06ce" valueTypeId="cd6f6cfe-8b74-47b3-b495-8978d2f5d49e"/>
+    <selectionType typeId="a7f75b99-a99b-4277-bbd3-906114a05fa1" valueTypeId="e57dc47a-0121-4832-9395-b70cbf421e32"/>
+    <listType typeId="c09e8bc0-a20c-4b44-ac20-28517b7cea7d" valueTypeId="52802f3b-331c-4929-bc70-33ad949c317e"/>
+    <managerType typeId="4651e7d4-f172-4681-aaf7-b9692b53684b" valueTypeId="b8c897ec-74f9-4cb7-9c6f-0f4c99846bed"/>
+  </producedTypes>
+  <name>ХарактеристикиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ХарактеристикиТоваров.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ХарактеристикиТоваров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>Catalog.ХарактеристикиТоваров</characteristicTypes>
+    <keyField>Catalog.ХарактеристикиТоваров.StandardAttribute.Ref</keyField>
+    <dataPathField>Catalog.ХарактеристикиТоваров.StandardAttribute.Ref</dataPathField>
+    <characteristicValues>InformationRegister.ЗначенияСвойствХарактеристикТовара</characteristicValues>
+    <objectField>InformationRegister.ЗначенияСвойствХарактеристикТовара.Dimension.Товары</objectField>
+    <typeField>InformationRegister.ЗначенияСвойствХарактеристикТовара.Dimension.Товары</typeField>
+    <valueField>InformationRegister.ЗначенияСвойствХарактеристикТовара.Resource.Значение</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Характеристика товара</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Товары</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХарактеристикиТоваров.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ХарактеристикиТоваров.Form.ФормаСписка</defaultListForm>
+  <forms uuid="4575232a-860a-47e3-8755-a9bb457a227c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdbab3b4-fb54-496d-8a8b-13916c87444e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

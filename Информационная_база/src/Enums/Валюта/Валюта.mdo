@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c934152-f54b-4bd4-ae00-be63b26af708">
+  <producedTypes>
+    <refType typeId="fa6003a1-0c55-484a-b26d-46b1a3216974" valueTypeId="25f72cbc-e5f2-4948-9ff3-2d697d833228"/>
+    <listType typeId="d6ddcad7-9630-4dff-8252-c17703f0c605" valueTypeId="643f9ace-725e-4c80-8990-7a284299c9f2"/>
+    <managerType typeId="db3238d5-40a9-4615-827c-d0a18acd13dc" valueTypeId="69492a4a-452f-4d7a-886b-630cdd8286ba"/>
+  </producedTypes>
+  <name>Валюта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10ce294d-5cc4-428d-869a-6fb5509f88eb">
+    <name>Рубль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рубль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bac34b61-8119-4eb3-ba81-fbe3be5690f3">
+    <name>Евро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Евро</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0646689c-5250-443b-85ac-5f0b1db616c4">
+    <name>Доллар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доллар</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

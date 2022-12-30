@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e58214c-7f49-4b83-9841-4252a77ecbc3">
+  <producedTypes>
+    <selectionType typeId="31fa46f5-a753-466d-8551-fd4bc8860b9b" valueTypeId="3161ffff-9e29-4a3f-aa3c-c78cbcb9a00c"/>
+    <listType typeId="6fea12bc-6751-489b-8a1d-8211e1c41027" valueTypeId="23f80f96-4dab-42b4-8548-813e2a8bdccc"/>
+    <managerType typeId="e9d98afa-3b55-489a-88ef-6c5be8c0b47a" valueTypeId="f30eecf2-4c1c-4293-962c-8eb8530ef909"/>
+    <recordSetType typeId="5dbb2192-1059-454b-a98d-b721ad752a15" valueTypeId="1c37df50-e39b-42c7-8983-acbf475dcce8"/>
+    <recordKeyType typeId="1416b753-dbec-4ae1-998f-667fced9cbb8" valueTypeId="66d73b15-4fce-453e-84b8-8ad41f1d953c"/>
+    <recordType typeId="5b23e575-b07e-4e44-92a9-33bec22dc3a4" valueTypeId="42c1e4d2-ccae-4131-8d0d-c88d6c504f1e"/>
+  </producedTypes>
+  <name>СебестоимостьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Себестоимость товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="739618f2-8dcc-4f84-8305-b54e1eecb516">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ee54920e-7334-4d94-b39d-f8ee85e09127">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="3a2d17ce-d018-42f5-9049-7e0f37d06ac1">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="033cb5f9-223b-43cd-844a-d54e23f2316e">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="40aef4ff-8063-40b6-b09f-dd4b82e8cee9">
+    <name>ХарактеристикаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика товара</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>AccumulationRegister.СебестоимостьТоваров.Dimension.Товар</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>AccumulationRegister.СебестоимостьТоваров.Dimension.Товар</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

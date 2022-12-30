@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b914d16-29be-4388-bdde-4be5f8f61501">
+  <producedTypes>
+    <objectType typeId="d528e76d-281d-4e52-964e-550ea732fca4" valueTypeId="a6189a71-5e39-47c4-b6f8-b6ee8e72def0"/>
+    <refType typeId="faf56c17-cccd-4441-8679-a26df722dbf6" valueTypeId="7f00e227-6ed7-4452-a48a-c05762c76560"/>
+    <selectionType typeId="6ca64c5c-bce0-4781-b0a1-bd8df883f41c" valueTypeId="125e2438-0a3e-4eb0-86c0-58f44e194a4f"/>
+    <listType typeId="1f0aef1c-c44c-4958-802a-b6b58dfb9724" valueTypeId="c38dd764-14d0-4834-b1ca-d23e23696087"/>
+    <managerType typeId="999fbba2-6087-4edb-ada8-dd284014ee6f" valueTypeId="d8326ea3-9ab4-4efd-bc9e-de8d52bb63d2"/>
+  </producedTypes>
+  <name>ПроводкиМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проводки месяца</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПроводкиМесяца.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

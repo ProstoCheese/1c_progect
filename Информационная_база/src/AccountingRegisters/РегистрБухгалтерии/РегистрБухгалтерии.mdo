@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7b655e5-62e3-4415-a7f5-70581401c994">
+  <producedTypes>
+    <selectionType typeId="d7770719-bfc6-4804-9e12-e50305f30cd0" valueTypeId="97511d25-a17e-4035-9d4c-c0e5b7765de9"/>
+    <listType typeId="e22fc0e2-ef05-4ac5-93fa-38fb3ee889a3" valueTypeId="422bc9f5-ba80-409a-8114-f48a65d40835"/>
+    <managerType typeId="56febd97-67bd-40fa-9602-86fd7301b607" valueTypeId="977e96d7-b0b8-4d37-9c32-75d768e29269"/>
+    <recordSetType typeId="9905fbfb-f6a2-4435-b93f-eaf563116adc" valueTypeId="ee9550ea-9353-4e54-851d-93ddbb60bdee"/>
+    <recordKeyType typeId="e9806d8a-a230-4521-a074-14bdf3c1fdb9" valueTypeId="e43173bd-e119-42d9-ac1a-5d0874654e72"/>
+    <recordType typeId="11e9c176-2a47-4ffa-a150-720b393c634e" valueTypeId="55944747-62e4-4116-a46a-c92d8405110f"/>
+    <extDimensionsType typeId="56cb89e1-1392-4aa2-acb7-8a8b321c0879" valueTypeId="889983a6-dbcc-4c72-b372-67a555075185"/>
+  </producedTypes>
+  <name>РегистрБухгалтерии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр бухгалтерии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.БухУчет</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a9151620-999e-4372-a641-9f1ddecca275">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

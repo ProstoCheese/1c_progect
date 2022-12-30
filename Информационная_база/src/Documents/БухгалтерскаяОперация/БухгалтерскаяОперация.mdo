@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72012181-0f29-4d3a-ac45-0bdb79d3d970">
+  <producedTypes>
+    <objectType typeId="5800631f-d8bc-43f6-98f5-ffab28b9318a" valueTypeId="ee541527-5aff-468e-bf14-47ab9331aa36"/>
+    <refType typeId="0be51eed-e5a2-48f5-8dac-796c2fb8549a" valueTypeId="e2e623ea-eba8-4967-8d08-25125fff6430"/>
+    <selectionType typeId="f6f81b3b-3a47-45e7-afd0-ccc30a48867e" valueTypeId="4ab19697-576c-46f0-ac08-71acbe1cec1c"/>
+    <listType typeId="be411ec5-2076-4e65-90b3-4f01148dfb8a" valueTypeId="d6b35432-ffed-42f2-865d-e6721feb5f31"/>
+    <managerType typeId="b375e79f-e521-474e-97d7-f11d9f4c9032" valueTypeId="1bce52cb-673c-4369-bd96-b7bf22d5494e"/>
+  </producedTypes>
+  <name>БухгалтерскаяОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерская операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.БухгалтерскаяОперация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccountingRegister.РегистрБухгалтерии</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f735ca42-eeb8-4f63-bd5c-010592c63bc3">
+    <name>СчетДт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет дт</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.БухУчет</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24cc243a-d45e-42dc-b8cd-e0805b536e55">
+    <name>СчетКт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет кт</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.БухУчет</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b5f6fa4-3a08-4864-8ad1-7e3b6574804a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

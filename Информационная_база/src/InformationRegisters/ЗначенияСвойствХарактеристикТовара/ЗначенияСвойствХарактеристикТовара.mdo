@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24f0f61c-cc7f-4d54-a3a5-78634dd29a09">
+  <producedTypes>
+    <selectionType typeId="db2c0d72-875f-480b-a3e8-1f2ddc96bc73" valueTypeId="57de64e7-ee64-4bf1-864b-b74d18883c9b"/>
+    <listType typeId="dc7784c9-6659-49c7-ae4c-19699b5bb8f2" valueTypeId="ee100a0b-a567-47f6-a19e-aa9ea5384caf"/>
+    <managerType typeId="3ea0ac38-39fe-41f8-8ccd-d6af36b0ab96" valueTypeId="202207bf-3bac-418e-a834-cb942ffbdd8d"/>
+    <recordSetType typeId="bbc4b165-9f50-4404-8cd6-06e7036bc874" valueTypeId="0c4b8329-d3d1-4eac-8c66-f9a4e7f5a246"/>
+    <recordKeyType typeId="f2f0f935-8228-4667-bb7d-9ef60c623de3" valueTypeId="95113ffc-a84f-44c6-910e-c55a2313d071"/>
+    <recordType typeId="34b7e993-b103-4738-a8e5-b72bf1393025" valueTypeId="996665a0-066a-4ccc-bd02-1c64ea06c81c"/>
+    <recordManagerType typeId="21f1fe34-55b5-423f-a89c-6dc6eb6c7163" valueTypeId="b7d028d0-25f0-4be2-b30b-ec1ba431d58f"/>
+  </producedTypes>
+  <name>ЗначенияСвойствХарактеристикТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств характеристик товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3f0c7263-df8f-4df4-8f85-4181f37a9687">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПланВидовХарактеристикТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЗначенияСвойствХарактеристикТовара.Dimension.ХарактеристикиТоваров</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ЗначенияСвойствХарактеристикТовара.Dimension.ХарактеристикиТоваров</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eae26405-16a7-4963-9826-bab743d4dc40">
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e6fcb4f3-9e33-4719-b8c3-e249c8ce45b8">
+    <name>ХарактеристикиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристики товаров</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПланВидовХарактеристикТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
