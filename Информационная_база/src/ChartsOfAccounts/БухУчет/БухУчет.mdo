@@ -29,32 +29,57 @@
     <items id="94738736-aca0-4f9a-b785-f94252c18c2f">
       <name>Товары</name>
       <description>Товары</description>
-      <code>01   </code>
+      <code>41   </code>
       <accountType>ActivePassive</accountType>
     </items>
     <items id="3e8f2167-27ea-4d5e-a450-228781b46cbe">
       <name>Расчеты</name>
       <description>Расчеты</description>
-      <code>02   </code>
+      <code>62   </code>
       <accountType>ActivePassive</accountType>
       <childItems id="e73ccc03-0860-4b2d-8149-c17251926594">
         <name>Клиенты</name>
         <description>Клиенты</description>
-        <code>02.01</code>
+        <code>62.01</code>
         <accountType>ActivePassive</accountType>
       </childItems>
       <childItems id="78c68211-371a-4149-a781-27bb998f5b48">
         <name>Поставщики</name>
         <description>Поставщики</description>
-        <code>02.02</code>
+        <code>62.02</code>
         <accountType>ActivePassive</accountType>
       </childItems>
     </items>
     <items id="bf4ffb23-29dd-468b-9def-f109c3bd0a09">
       <name>Касса</name>
       <description>Касса</description>
-      <code>03   </code>
+      <code>50   </code>
       <accountType>ActivePassive</accountType>
+    </items>
+    <items id="565476f3-e4ae-4a4e-997a-e9b737250ec3">
+      <name>Продажи</name>
+      <description>Продажи</description>
+      <code>90   </code>
+      <accountType>ActivePassive</accountType>
+      <childItems id="23ff9c0b-daef-4073-a273-5404c29850e0">
+        <name>Выручка</name>
+        <description>Выручка</description>
+        <code>90.01</code>
+        <accountType>ActivePassive</accountType>
+      </childItems>
+      <childItems id="3e82d4ad-cf62-4af7-9b32-475fef52bfdf">
+        <name>Себестоимость</name>
+        <description>Себестоимость</description>
+        <code>90.02</code>
+        <accountType>ActivePassive</accountType>
+      </childItems>
+      <childItems id="0eb85354-5f34-4472-bc2f-28503221d3e2">
+        <name>Прибыль</name>
+        <description>Прибыль / убыток от прода</description>
+        <code>90.09</code>
+        <accountType>ActivePassive</accountType>
+        <offBalance>true</offBalance>
+      </childItems>
     </items>
   </predefined>
   <editType>InDialog</editType>
