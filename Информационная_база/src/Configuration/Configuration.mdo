@@ -39,6 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Администратор</roles>
   <commonForms>CommonForm.ФормаПодбораТовара</commonForms>
   <catalogs>Catalog.ДополнительныеСвойстваХарактеристикТоваров</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
